@@ -1,7 +1,6 @@
 # PathologyOCR
 Automatically extract structured blood test results from scanned or faxed lab report images using Python and Tesseract OCR, then map and export them to a clean, analysis-ready spreadsheet.
-
----
+**Doesn't Quite Work Yet!!**
 
 ## 🚀 Features
 
@@ -10,8 +9,6 @@ Automatically extract structured blood test results from scanned or faxed lab re
 - **Multi-Date Support:** Detects and aligns results from multiple test dates.
 - **Excel Template Integration:** Fills your own Excel template for further review or analysis.
 - **Debug Outputs:** Saves OCR text and processing logs for easy troubleshooting.
-
----
 
 ## 📋 Requirements
 
@@ -31,8 +28,6 @@ Automatically extract structured blood test results from scanned or faxed lab re
 4. **Template Population:** Fills your Excel template, aligning results under the right columns.
 5. **Export:** Outputs a structured CSV or Excel file for easy use.
 
----
-
 ## 📓 Example Workflow
 
 **Input:**  
@@ -49,8 +44,6 @@ Your template (e.g., `PathologyPro_Template.xlsx`) should have a "Blood Tests" s
 
 **Output:**  
 A populated CSV or Excel file, e.g., `populated_blood_test_results.csv`.
-
----
 
 ## 🛠 Usage
 
@@ -70,19 +63,13 @@ A populated CSV or Excel file, e.g., `populated_blood_test_results.csv`.
 - **Tesseract issues?**
   - Double-check Tesseract installation and set the correct path for your OS.
 
----
-
 ## 📜 License
 
 MIT License
 
----
-
 ## 🙏 Acknowledgements
 
 Developed to automate and simplify the extraction of health data from legacy documents—enabling better personal health recordkeeping, research, and interoperability. Contributions and suggestions are welcome!
-
----
 
 **Let’s automate better health data—one messy PDF at a time.**
 
